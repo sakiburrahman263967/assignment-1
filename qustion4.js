@@ -1,4 +1,4 @@
-// okay qustion3  te bolse distance, waiting time ar night kina—ei 3ta diye CNG-er total vara calculate kore return korte hobe.
+// okay qustion4  te bolse distance, waiting time ar night kina—ei 3ta diye CNG-er total vara calculate kore return korte hobe.
 function getCngFare (distance, isNight = false, waitingMinutes = 0 ){
     let fare = 50;
 
