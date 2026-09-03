@@ -102,15 +102,9 @@ const getChaseVerdict = (target, scored, ballsLeft) => {
     let runsNeeded = target - scored;
 
 
-
-
-
-
     if (runsNeeded <= 0) {
         return "Won";
     }
-
-
 
 
 
@@ -130,11 +124,6 @@ const getChaseVerdict = (target, scored, ballsLeft) => {
     } else {
         verdict = "Almost Impossible";
     }
-
-
-
-
-
 
 
     return `Need ${runsNeeded} runs in ${ballsLeft} balls | ${verdict}`;
