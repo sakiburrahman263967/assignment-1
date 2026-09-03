@@ -1,3 +1,6 @@
+// oakyyy qustion5 e bola hoyeche target, scored ar koto ball baki ache—ei 3ta diye calculate kore bolte hobe team jitte parbe kina, ar jitle/tough hole required run rate onujayi verdict dite hobe.
+
+
 const getChaseVerdict = (target, scored, ballsLeft) => {
 
     let runsNeeded = target - scored;
@@ -37,7 +40,7 @@ const getChaseVerdict = (target, scored, ballsLeft) => {
 
 
 
-    
+
     return `Need ${runsNeeded} runs in ${ballsLeft} balls | ${verdict}`;
 };
 
